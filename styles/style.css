@@ -1,0 +1,132 @@
+
+/* header design  */
+header{
+    display: flex;
+    width: 1160px;
+}
+nav{
+    display: flex;
+    background-color: blue;
+    padding-top: 42px;
+    padding-bottom: 49px;
+    padding-left: 100px;
+}
+nav li{
+    list-style: none;
+    
+    margin-right: 20px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.login{
+    margin-left: 500px;
+    margin-right: 183px;
+}
+/* banner style  */
+.banner{
+    background-color: blue;
+    margin-bottom: 50px;
+}
+.copa-america{
+   display: flex;
+    align-items: center;
+}
+.copa-america .jump img{
+    width: 557px;
+    height: 438px;
+    
+    
+}
+.copa-america .heading{
+   
+    
+    margin-right: 102px;
+    margin-left: 100px;
+    color: white;
+
+}
+.copa-america .jump{
+    margin-right: 140px;
+}
+h1{
+    font-size: 50px;
+}
+.watch-live{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+
+}
+/* players style  */
+
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    margin-bottom: 165px;
+   
+
+
+}
+.top-players .players{
+    width: 330px;
+    
+    padding: 15px;
+    margin-left: 30px;
+    
+    box-shadow: 10px 10px 20px gainsboro;
+   
+
+    
+}
+.top-players .players img{
+    width: 100%;
+}
+/* lastly */
+
+.last{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.last .image img{
+    height: 427px;
+    width: 567px;
+
+
+}
+.details{
+    width: 470px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+/* footer  */
+.footer .logo{
+    width: 470px;
+    height: 110px;
+}
+.least{
+    width: 470px;
+    height: 213px;
+    margin-left: 475px;
+    margin-right: 475px;
+}
+.least{
+    display: flex;
+    flex-direction: column;
+    
+}
+.least .icon{
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.least .icon .la{
+    margin: 15px;
+}
