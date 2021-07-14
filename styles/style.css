@@ -1,32 +1,6 @@
 
-/* header design  */
-header{
-    display: flex;
-    width: 1160px;
-}
-nav{
-    display: flex;
-    background-color: blue;
-    padding-top: 42px;
-    padding-bottom: 49px;
-    padding-left: 100px;
-}
-nav li{
-    list-style: none;
-    
-    margin-right: 20px;
-    
-}
-nav li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    
-}
-.login{
-    margin-left: 500px;
-    margin-right: 183px;
-}
+
+
 /* banner style  */
 .banner{
     background-color: blue;
@@ -43,11 +17,12 @@ nav li a{
     
 }
 .copa-america .heading{
-   
     
     margin-right: 102px;
-    margin-left: 100px;
+    margin-left: 156px;
     color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 .copa-america .jump{
@@ -106,6 +81,7 @@ h1{
     width: 470px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-bottom: 50px;
 }
 /* footer  */
 .footer .logo{
@@ -129,4 +105,44 @@ h1{
 }
 .least .icon .la{
     margin: 15px;
+}
+/* media queries */
+@media only screen and (max-width:688px) {
+    
+    section{
+        width: 100%;
+    }
+    
+    .copa-america, .last{
+        flex-direction: column;
+        
+        
+    }
+    .top-players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .copa-america, .last{
+        align-items: unset;
+    }
+    .copa-america .heading, .last, .least{
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    section{
+        width: 100%;
+    }
+    .top-players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .copa-america, .last{
+        flex-direction: column;
+    }
+    .copa-america .heading, .last, .least{
+        margin-left: unset;
+        margin-right: unset;
+    }
+
 }
